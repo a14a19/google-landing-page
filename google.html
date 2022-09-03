@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            line-height: 1.3;
+            margin: 0;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 15%;
+            background-image: linear-gradient(to left, rgb(132, 131, 131), whitesmoke);
+            box-shadow: 0px 0px 2px black;
+        }
+        main {
+            margin-top: 8%;
+        }
+        .icon {
+            width: 18px;
+            cursor: pointer;
+            position: relative;
+            top: 4px;
+        }
+        .menu {
+            display: inline-block;
+            color: #5f6368;
+            padding: 0 10px 6px 10px;
+            line-height: 1.3;
+            margin: 0;
+            cursor: pointer;
+        }
+        .menu-all:hover {
+            border-bottom: 1px solid #1A73E8;
+        }
+        .menu:hover {
+            border-bottom: 1px solid #1A73E8;
+        }
+        .menu-all {
+            display: inline-block;
+            color: #1A73E8;
+            padding: 0 10px 6px 10px;
+            line-height: 1.3;
+            margin: 0;
+            cursor: pointer;
+        }
+        .menu1 {
+            margin: auto 90px;
+            
+        }
+        .about {
+            margin: 15px 90px 15px 90px;
+            color: #5f6368;
+        }
+        .search-result-box {
+            max-width: 700px;
+            margin: auto 90px;
+            display: inline-block;
+        }
+        .text-head1 {
+            margin-bottom: 0;
+            color: #1A73E8;
+            cursor: pointer;
+        }
+        .text-head1-vst {
+            margin-bottom: 0;
+            color: #609;
+            cursor: pointer;
+        }
+        .text-head2-vst {
+            margin: 0 auto;
+            color: green;
+        }
+        .text-head2 {
+            margin: 0 auto;
+            color: green;
+        }
+        .text-head3 {
+            margin: 0 auto;
+        }
+        .tag {
+            margin: 0 auto;
+            color: #1A73E8;
+        }
+        .top-img {
+            width: 180px;
+        }
+        .rightside {
+            display: inline-block;
+            max-width: 460px;
+            vertical-align: top;
+            border: 0.5px solid #dfe1e5;
+            border-radius: 5px;
+        }
+        .right-top {
+            padding: 30px 20px 10px 20px;
+
+        }
+        .right-bottom {
+            padding: 10px 20px 30px 20px;
+        }
+        .right-btm-img {
+            width: 88px;
+        }
+        .right-btm {
+            display: inline-block;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            background-color: rgba(128, 128, 128, 0.15);
+            height: 60px;
+            margin-top: 50px;
+        }
+        footer h3 {
+            padding-top: 10px;
+            color: #5f6368;
+        }
+        hr {
+            width: 100%;
+            color: #dfe1e5;
+            height: 1px;
+            background-color: #ccc;
+            border: none;
+            margin: 0 auto 6px 0;
+            padding: 0;
+        }
+        .right-text {
+            text-decoration: none;
+        }
+        .google {
+            margin: 30px auto auto 10px;
+        }
+        .goole-btm {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav >
+
+        <a href="https://www.google.com/" target="_blank">
+            <img src="https://www.google.com/logos/doodles/2020/stay-home-save-lives-6753651837108752-s.png" alt="Google" class="google" id="google">
+        </a>
+        
+            <div class="menu1">
+            
+                <img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698838-icon-111-search-512.png" alt="Search" class="icon">
+                <p class="menu-all">
+                    All
+                </p>
+
+                <img src="https://cdn0.iconfinder.com/data/icons/typicons-2/24/image-512.png" alt="images" class="icon">
+                <p class="menu">
+                    Images
+                </p>
+
+                <img src="https://cdn4.iconfinder.com/data/icons/essential-part-1/32/61-Video-512.png" alt="Videos" class="icon">
+                <p class="menu">
+                    Videos
+                </p>
+
+                <img src="https://cdn2.iconfinder.com/data/icons/picol-vector/32/news-128.png" alt="News" class="icon">
+                <p class="menu">
+                    News
+                </p>
+
+                <img src="https://cdn4.iconfinder.com/data/icons/48-bubbles/48/06.Tags-128.png" alt="Shopping" class="icon">
+                <p class="menu">
+                    Shopping
+                </p>
+
+                <img src="https://cdn4.iconfinder.com/data/icons/feather/24/more-vertical-512.png" alt="More" class="icon">
+                <p class="menu">
+                    More
+                </p>
+        </div>
+    </nav>
+
+    <!-- <hr> -->
+    <main>
+        <div class="about">
+            About 8,90,00,00,000 results (0.68 seconds)
+        </div>
+
+        <div class="search-result-box">
+            <div class="main-sub">
+                <h3 class="text-head1-vst">
+                    Result 1
+                </h3>
+                <p class="text-head2-vst">
+                    https://randomlink.com/page1/item
+                </p>
+                <p class="text-head3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo dolorem maxime sit quibusdam itaque laudantium commodi corporis facere iusto nihil, eveniet mollitia nisi reprehenderit corrupti minus expedita autem. At?
+                </p>
+                <p class="tag">
+                    Tag 1 Tag 2 Tag 3
+                </p>
+            </div>
+
+            <div class="main-sub">
+                <h3 class="text-head1">
+                    Result 1
+                </h3>
+                <p class="text-head2">
+                    https://randomlink.com/page1/item
+                </p>
+                <p class="text-head3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo dolorem maxime sit quibusdam itaque laudantium commodi corporis facere iusto nihil, eveniet mollitia nisi reprehenderit corrupti minus expedita autem. At?
+                </p>
+                <p class="tag">
+                    Tag 1 Tag 2 Tag 3
+                </p>
+            </div>
+
+            <div class="main-sub">
+                <h3 class="text-head1">
+                    Result 1
+                </h3>
+                <p class="text-head2">
+                    https://randomlink.com/page1/item
+                </p>
+                <p class="text-head3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo dolorem maxime sit quibusdam itaque laudantium commodi corporis facere iusto nihil, eveniet mollitia nisi reprehenderit corrupti minus expedita autem. At?
+                </p>
+                <p class="tag">
+                    Tag 1 Tag 2 Tag 3
+                </p>
+            </div>
+
+            <div class="main-sub">
+                <h3 class="text-head1">
+                    Result 1
+                </h3>
+                <p class="text-head2">
+                    https://randomlink.com/page1/item
+                </p>
+                <p class="text-head3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo dolorem maxime sit quibusdam itaque laudantium commodi corporis facere iusto nihil, eveniet mollitia nisi reprehenderit corrupti minus expedita autem. At?
+                </p>
+                <p class="tag">
+                    Tag 1 Tag 2 Tag 3
+                </p>
+            </div>
+
+            <div class="main-sub">
+                <h3 class="text-head1">
+                    Result 1
+                </h3>
+                <p class="text-head2">
+                    https://randomlink.com/page1/item
+                </p>
+                <p class="text-head3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo dolorem maxime sit quibusdam itaque laudantium commodi corporis facere iusto nihil, eveniet mollitia nisi reprehenderit corrupti minus expedita autem. At?
+                </p>
+                <p class="tag">
+                    Tag 1 Tag 2 Tag 3
+                </p>
+            </div>
+
+            <div class="main-sub">
+                <h3 class="text-head1">
+                    Result 1
+                </h3>
+                <p class="text-head2">
+                    https://randomlink.com/page1/item
+                </p>
+                <p class="text-head3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo dolorem maxime sit quibusdam itaque laudantium commodi corporis facere iusto nihil, eveniet mollitia nisi reprehenderit corrupti minus expedita autem. At?
+                </p>
+                <p class="tag">
+                    Tag 1 Tag 2 Tag 3
+                </p>
+            </div>
+        </div>
+
+        <div class="rightside">
+            <div class="right-top">
+                
+                <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" class="right-text">
+
+                    <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" alt="Html" class="top-img">
+                    <img src="https://cdn.icon-icons.com/icons2/1913/PNG/512/iconfinder-bl-1645-search-seo-magnifier-earth-globe-internet-4575058_121505.png" alt="Search" class="top-img">
+
+                    <h1>
+                        HTML
+                    </h1>
+                </a>
+
+                <h3>
+                    Programming Language
+                </h3>
+            </div>
+
+            <hr>
+
+            <div class="right-bottom">
+                <p>
+                    The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+
+                    Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+                </p>
+
+                <p> <strong>Creater</strong> Bla Blallal </p>
+
+                <p> <strong>Last Version</strong> HTML 5 </p>
+
+                <h3>Similar requests</h3>
+
+                <div class="right-btm">
+
+                    <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" class="right-text">
+                        <img src="https://cdn3.iconfinder.com/data/icons/social-media-logos-flat-colorful-1/2048/5351_-_CSS3-512.png" alt="CSS" class="right-btm-img">
+                        <h3 >CSS</h3>
+                    </a>
+                </div>
+                
+                <div class="right-btm">
+                    <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" target="_blank" class="right-text">
+                    <img src="https://vectorified.com/images/http-icon-15.png" alt="HTTP" class="right-btm-img">
+                    <h3>HTTP</h3>
+                    </a>    
+                </div>
+
+                <div class="right-btm">
+                    <a href="https://en.wikipedia.org/wiki/PHP" target="_blank" class="right-text">
+                        <img src="https://cdn4.iconfinder.com/data/icons/file-names-25/512/41-512.png" alt="Php" class="right-btm-img">
+                        <h3>PHP</h3>
+                    </a>
+                </div>
+
+                <div class="right-btm">
+                    <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" class="right-text">
+                    <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-512.png" alt="JS" class="right-btm-img">
+                    <h3>JavaScript</h3>
+                </a>
+                </div>
+
+                <div class="right-btm">
+                    <a href="https://en.wikipedia.org/wiki/URL" target="_blank" class="right-text">
+                    <img src="https://cdn4.iconfinder.com/data/icons/web-development-5/500/checked-www-domain-window-512.png" alt="URL" class="right-btm-img">
+                    <h3>URL</h3>
+                </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="#google" class="goole-btm">
+        <h3>Google</h3>
+        </a>
+    </footer>
+</body>
+</html>
